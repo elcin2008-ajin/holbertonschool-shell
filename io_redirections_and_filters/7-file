@@ -1,3 +1,2 @@
 #!/bin/bash
-# Faylı yarat və içinə "Best School" yaz
 printf "Best School\n" > $'*\\\\\'"Best School"\'\\\\*$?*****:)'
