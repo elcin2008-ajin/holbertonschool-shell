@@ -1,1 +1,1 @@
-Holberton Shell Project
+Shell project
