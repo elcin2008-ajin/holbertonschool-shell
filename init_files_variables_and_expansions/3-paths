@@ -1,4 +1,3 @@
 #!/bin/bash
-c=0
-for d in ${PATH//:/ }; do if [ -d "$d" ]; then c=$((c+1)); fi; done
-echo $c
+c=0; for d in ${PATH//:/ }; do if [ -d "$d" ]
+then c=$((c+1)); fi; done; echo $c
