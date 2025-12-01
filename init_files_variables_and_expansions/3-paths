@@ -1,0 +1,11 @@
+#!/bin/bash
+count=0
+
+# PATH-ı ':' ilə ayırıb hər bir element üçün yoxla
+for dir in ${PATH//:/ }; do
+    if [ -d "$dir" ]; then
+        count=$((count + 1))
+    fi
+done
+
+echo "$count"
